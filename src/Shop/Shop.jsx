@@ -1,20 +1,24 @@
 import React, { useEffect, useState } from 'react';
+import Product from '../Product/Product';
 import './Shop.css'
 const Shop = () => {
-    const [product,setProduct]=useState([])
+    const [products,setProducts]=useState([])
     useEffect(()=>
-    fetch('../../public/GoldenData.json')
-    .then(res => res.json)
-    .then(data => console.log(data))
+    fetch('GoldenData.json')
+    .then(res => res.json())
+    .then(data =>setProducts(data))
     ,[])
     
     return (
-        <div className="row container">
-            <div className="col-md-8 "><h1>Ami</h1>
-            
-            
+        <div className="row">
+            <div className="col-md-10 ">
+          <div className="shop-content">
+          {
+               products.map(product => <Product product={product} ></Product>)
+           }
+          </div>
             </div>
-            <div className="col-md-4"><h1>Tumi</h1></div>
+            <div className="col-md-2"><h1>Tumi</h1></div>
         </div>
     );
 };

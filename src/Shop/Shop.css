@@ -1,0 +1,17 @@
+.shop-content{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+
+    .shop-content{
+        display:grid;
+        grid-template-columns:1fr;
+      
+    }
+  }
