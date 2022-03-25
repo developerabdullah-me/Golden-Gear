@@ -1,0 +1,114 @@
+[
+    {
+      "name": "Rolls Royce phantom",
+      "price": 10000,
+      "ratings": 4.5,
+      "img": "https://i.pinimg.com/originals/86/e1/c5/86e1c5f8101eba5884e809aeb659efb7.jpg",
+      "quantity": 0,
+      "id": 101
+    },
+    {
+      "name": "",
+      "price": 255,
+      "ratings": 4.5,
+      "img": "https://images.wapcar.my/file1/d6f452c3895949b18bb4aeb019eabdfa_404x268.jpg",
+      "quantity": 0,
+      "id": 102452
+    },
+    {
+      "name": "Rolls-Royce Ghost",
+      "price": 255,
+      "ratings": 4.5,
+      "img": "https://images.wapcar.my/file1/1e99769528d54a81a22dc2167ab906e0_404x268.jpg",
+      "quantity": 0,
+      "id": 103785
+    },
+    {
+      "name": "Rolls-Royce Wraith",
+      "price": 255,
+      "ratings": 4.5,
+      "img": "https://images.wapcar.my/file1/49226bb792c74c43ad5a4309b50e27bf_404x268.jpg",
+      "quantity": 0,
+      "id": 104875
+    },
+    {
+      "name": "Rolls Royce Phantom-2",
+      "price": 255,
+      "ratings": 4.5,
+      "img": "https://images.wapcar.my/file1/a6002fcca31b448bb77df75f5ea908e9_404x268.jpg",
+      "quantity": 0,
+      "id": 105845
+    },
+    {
+      "name": "Rolls-Royce Cullinan",
+      "price": 255,
+      "ratings": 4.5,
+      "img": "https://images.wapcar.my/file1/2a3c8396a49b47d7b92cf833b9d2014e_404x268.jpg",
+      "quantity": 0,
+      "id": 101845
+    },
+    {
+      "name": "Toyota Hilux",
+      "price": 255,
+      "ratings": 4.5,
+      "img": "https://images.wapcar.my/file1/9771c2adb12e461eae7d0ed87077bf98_300x200.jpg",
+      "quantity": 0,
+      "id": 1055
+    },
+    {
+      "name": "Isuzu D-MAX",
+      "price": 255,
+      "ratings": 4.5,
+      "img": "https://images.wapcar.my/file1/bf02d0f45cae4969902d07ec6c6a2e4a_300x200.jpg",
+      "quantity": 0,
+      "id": 105
+    },
+    {
+      "name": "Ford Ranger",
+      "price": 255,
+      "ratings": 4.5,
+      "img": "https://images.wapcar.my/file1/e7f58d1cf9de40c2b65ca18b3def0e77_300x200.jpg",
+      "quantity": 0,
+      "id": 10145
+    },
+    {
+      "name": "Perodua Bezza",
+      "price": 255,
+      "ratings": 4.5,
+      "img": "https://images.wapcar.my/file1/85c1561ed3f24beaa8ead4bd8dd43745_300x200.jpg",
+      "quantity": 0,
+      "id": 101542
+    },
+    {
+      "name": "Perodua Myvi",
+      "price": 255,
+      "ratings": 4.5,
+      "img": "https://images.wapcar.my/file1/3ab3e8fc6e8a48019f8e23bbd79ddb6c_300x200.jpg",
+      "quantity": 0,
+      "id": 10145
+    },
+    {
+      "name": "Proton Saga",
+      "price": 255,
+      "ratings": 4.5,
+      "img": "https://images.wapcar.my/file1/bbc10f7775184501aadac089155feb05_300x200.jpg",
+      "quantity": 0,
+      "id": 10185
+    },
+    {
+      "name": "Perodua Axia",
+      "price": 255,
+      "ratings": 4.5,
+      "img": "https://images.wapcar.my/file1/85c1561ed3f24beaa8ead4bd8dd43745_300x200.jpg",
+      "quantity": 0,
+      "id": 101
+    },
+    {
+      "name": "phanthom golden",
+      "price": 255,
+      "ratings": 4.5,
+      "img": "https://images.pexels.com/photos/5046305/pexels-photo-5046305.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "quantity": 0,
+      "id": 10185
+    }
+  ]
