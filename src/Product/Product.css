@@ -6,12 +6,15 @@ img{
 }
 
 .product-container{
-    width:280px;
+    width:300px;
     height:400px;
     border: 1px solid #383CC1;
     border-radius:10px;
+
 }
 .add-to-cart{
     position:absolute;
     bottom: 0;
+    width: 50%;
+    text-align: center;
 }

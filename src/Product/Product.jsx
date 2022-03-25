@@ -10,9 +10,10 @@ const Product = (props) => {
         <img src={img}alt="" />
            <h1>{name}</h1>
            <p>{price}</p>
-           <button className="add-to-cart ">Add to Cart</button>
+          
 
            </div>
+           <button className="add-to-cart ">Add to Cart</button>
         </div>
     );
 };
