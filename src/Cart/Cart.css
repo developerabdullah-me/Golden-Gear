@@ -1,10 +1,25 @@
+img{
+    width: 110px;
+}
 .cart{
      position: sticky;
     top: 0;
     margin-left: 15px;
     }
 
-
+.cart-title-content{
+    background-color: #FF3C83;
+    border-radius: 15px;
+    padding:15px;
+    width: 200px;
+   
+    
+}
+.cart{
+    border: 2px solid #efefef;
+    margin:5px;
+    border-radius: 7px;;
+}
 .randomChoose{
     background-color: #efefef;
     border:none;

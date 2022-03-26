@@ -11,23 +11,27 @@ const Cart = ({cart,clearCart}) => {
 }
 
   return (
-        <div className=" cart">
-           
-         <div>
+        <div className=" cart">    
 
-                   {
+         <div>
+                    {/* show car img */}
+                  <div className="cart-title-content">
+                  {
                             cart.map((product)=>(
-                            <div className="d-flex align-items-center">
+                            <div className="d-flex align-items-center cart">
                             <p key={product.id}> {product.name}</p>
                             <img className="w-50" src={product.img} alt="" />
                         </div>
                     ))
                 }
+
+                  </div>
+
          </div>
-         <div className="">
-         <div className="">
+         <div className="cart-title-content">
+         <div className="cart d-flex">
              <p>{random.name}</p>
-               <img src={random.img} alt="" />
+               <img  src={random.img} alt="" />
                 </div>
          <button className="randomChoose" onClick={() =>randomButton(cart)}>Random Choose</button>  
           <button className="clearCart" onClick={clearCart}>Clear Cart</button> 
