@@ -9,7 +9,16 @@ const Cart = ({cart}) => {
          <div className="">
          {
                     cart.map((product)=>(
-                        <p key={product.id}>{product.name}</p>
+                        <div className="d-flex">
+                            <p key={product.id}> {product.name}</p>
+                            <img className="w-50" src={product.img} alt="" />
+                        </div>
+                        
+                        // <div key={product.id}>
+                        //     <img src={product.img} alt="" />
+                        //     {product.name}
+                            
+                        //     </div>
                     ))
                 }
          </div>
