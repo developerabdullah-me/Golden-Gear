@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
+import Footer from '../Footer/Footer';
 import Product from '../Product/Product';
 import Question from '../Question/Question';
 import './Shop.css'
@@ -45,6 +46,7 @@ const Shop = () => {
                 
         </div>
         <Question></Question>
+        {/* <Footer></Footer> */}
         </div>
     );
 };
