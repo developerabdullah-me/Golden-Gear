@@ -11,29 +11,31 @@ const Shop = () => {
     .then(data =>setProducts(data))
     ,[])
     const handelToCart=(product)=>{
-        // console.log(product)
-        for (const product of cart){
-            console.log(product)
-        }
-        const newCart=[...cart,product.name]
-        setCart(newCart)
+    //     const newCart =[...cart,product];
+    //    console.log(newCart)
+    //    setCart(newCart)
+         const newCart =[...cart,product];
+        if(newCart.length > 4){
+            alert('select your product fill up ')
+            }else{
+                setCart(newCart)
+                
+            }
+       
     }
     return (
-        <div className="row">
-            <div className="col-md-10 ">
-          <div className="shop-content">
+        <div className="displayProduct">
+            <div className=" shop-content"> 
           {
                products.map(product => <Product
                 handelToCart={handelToCart}
                 key={product.id}
                 product={product} 
-                
                 ></Product>)
            }
-          </div>
+      
             </div>
-            <div className="col-md-2"><h1>Tumi
-                </h1>
+            <div className="">
                 <Cart cart={cart}></Cart>
                 </div>
         </div>

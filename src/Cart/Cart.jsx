@@ -1,14 +1,25 @@
 import React from 'react';
 
-const Cart = ({cart,img}) => {
+const Cart = ({cart}) => {
     
 
-console.log(Cart);
+// console.log(img);
     return (
         <div>
-            <img src={img} alt="" />
-           <h5>{cart}</h5>
-        
+         <div className="">
+         {
+                    cart.map((product)=>(
+                        <p key={product.id}>{product.name}</p>
+                    ))
+                }
+         </div>
+           {/* <h5>{cart}</h5> */}
+         <div className="">
+
+         <button>Random Choose</button>  
+          <button >Delete</button>  
+         </div>
+
         </div>
     );
 };

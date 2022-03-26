@@ -2,9 +2,12 @@
     display:grid;
     grid-template-columns: repeat(3,1fr);
     gap:10px;
-    position: relative;
+    /* position: relative; */
 }
-
+.displayProduct{
+  display:grid;
+  grid-template-columns: 4fr 1fr;
+}
 @media screen and (max-width: 480px) {
     body {
       background-color: lightgreen;
