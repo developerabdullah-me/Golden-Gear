@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
+import Question from '../Question/Question';
 import './Shop.css'
 const Shop = () => {
     const [products,setProducts]=useState([])
@@ -17,14 +18,15 @@ const Shop = () => {
             alert('select your product fill up ')
             }else{
                 setCart(newCart)
-                } }
+                } };
 
-                const Delete=()=>{
+                const clearCart=()=>{
                     setCart([])
                 }
 
     return (
-        <div className="displayProduct">
+        <div className="">
+            <div className="Shop-container ">
             <div className=" shop-content"> 
           {
                products.map(product => <Product
@@ -32,15 +34,17 @@ const Shop = () => {
                 key={product.id}
                 product={product} 
 
-                ></Product>)
-           }
+                ></Product>) }
       
             </div>
-            <div className="">
+            <div className=" cart-container">
                 <Cart 
-            Delete={Delete}
+            clearCart={clearCart}
                  cart={cart}></Cart>
                 </div>
+                
+        </div>
+        <Question></Question>
         </div>
     );
 };

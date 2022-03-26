@@ -1,0 +1,37 @@
+.cart{
+     position: sticky;
+    top: 0;
+    margin-left: 15px;
+    }
+
+
+.randomChoose{
+    background-color: #efefef;
+    border:none;
+    font-weight: 700;
+    padding: 10px 5px;
+    margin:3px;
+    border-radius:7px;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+   
+    
+.randomChoose:hover{
+  
+    background-image: linear-gradient(to right, #FF9F4A, #FF3C83,#FD297A, #9424F0);
+    color: #fff;
+    }
+.clearCart{
+    background-color: #E21717;
+    border:none;
+    font-weight: 700;
+    padding: 10px 5px;
+    margin:3px;
+    border-radius:7px;
+   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.clearCart:hover{
+  
+    background-image: linear-gradient(to right, #FF9F4A, #FF3C83,#FD297A, #9424F0);
+    color: #fff;
+    }

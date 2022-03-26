@@ -1,20 +1,5 @@
 [
-    {
-      "name": "Rolls Royce phantom",
-      "price": 10000,
-      "ratings": 4.5,
-      "img": "https://i.pinimg.com/originals/86/e1/c5/86e1c5f8101eba5884e809aeb659efb7.jpg",
-      "quantity": 0,
-      "id": 11035
-    },
-    {
-      "name": "",
-      "price": 255,
-      "ratings": 4.5,
-      "img": "https://images.wapcar.my/file1/d6f452c3895949b18bb4aeb019eabdfa_404x268.jpg",
-      "quantity": 0,
-      "id": 7856423
-    },
+    
     {
       "name": "Rolls-Royce Ghost",
       "price": 255,

@@ -1,21 +1,30 @@
-img{
+.product-container img{
     width:200px;
+    padding-left:30px
 }
 .product-content{
-    position: relative;
+    padding-right: 34px
 }
-
 .product-container{
-    width:300px;
-    height:300px;
-    border: 1px solid #383CC1;
-    border-radius:10px;
-
+    width:280px;
+    height:350px; 
+    position: relative;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:20px;
+  border-radius:10px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 .add-to-cart{
     position:absolute;
     bottom: 0;
-    left: 15%;
-    width: 50%;
-   
+   border: 0;
+   padding :10px 0;
+    width: 100%;
+    font-weight: 600;
+}
+.add-to-cart:hover{
+    background-image: linear-gradient(to right, red , yellow);
+    color: #fff;
 }

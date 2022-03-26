@@ -7,8 +7,10 @@ const Product = ({product,handelToCart}) => {
         <div className="product-content">
            <div className="product-container">
         <img src={img}alt="" />
-           <p>{name}</p>
-           <p>{price}</p>
+          <div className="px-5">
+          <p>Name:$ <small> {name}</small></p>
+           <p>Price:$ <small> {price}</small></p>
+          </div>
            <button onClick={()=>handelToCart(product)} className="add-to-cart">Add to cart  <BsFillCartPlusFill/></button>
 
            </div>
