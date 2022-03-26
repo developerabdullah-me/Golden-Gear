@@ -7,7 +7,7 @@ img{
 
 .product-container{
     width:300px;
-    height:400px;
+    height:300px;
     border: 1px solid #383CC1;
     border-radius:10px;
 
@@ -15,6 +15,7 @@ img{
 .add-to-cart{
     position:absolute;
     bottom: 0;
+    left: 15%;
     width: 50%;
-    text-align: center;
+   
 }

@@ -10,9 +10,9 @@ const Product = ({product,handelToCart}) => {
         <div className="product-content">
            <div className="product-container">
         <img src={img}alt="" />
-           <h1>{name}</h1>
+           <p>{name}</p>
            <p>{price}</p>
-           <button onClick={()=>handelToCart(product)} className=".add-to-cart">Add to cart  <BsFillCartPlusFill/></button>
+           <button onClick={()=>handelToCart(product)} className="add-to-cart">Add to cart  <BsFillCartPlusFill/></button>
 
            </div>
              
