@@ -2,10 +2,7 @@ import React from 'react';
 import './Product.css'
 import { BsFillCartPlusFill } from 'react-icons/bs';
 const Product = ({product,handelToCart}) => {
-    // const {handelToCart}= props;
-    // console.log(props);
-    //  const {product}=props
-     const {name,img,price,}=product
+     const {name,img,price,}=product;
     return (
         <div className="product-content">
            <div className="product-container">
